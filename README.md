@@ -46,5 +46,5 @@ Output should look like this:
 
 ```
  ==> Starting payload transfer...
- ==> Transfer compeleted in 4.27 seconds (238 kb/sec)
+ ==> Transfer completed in 4.27 seconds (238 kb/sec)
 ```

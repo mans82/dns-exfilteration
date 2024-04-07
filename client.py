@@ -34,7 +34,7 @@ def main():
             dns_socket.send(question.pack())
 
     total_time = time.time() - current_time
-    print(" ==> Trasfer compeleted in %.2f seconds (%d kb/sec)" %
+    print(" ==> Trasfer completed in %.2f seconds (%d kb/sec)" %
           (total_time, int((payload_transferred / 1024) / total_time)))
 
 
