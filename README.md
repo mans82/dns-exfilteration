@@ -6,9 +6,9 @@ The DNS protocol is largely viewed as a harmless protocol and is usually allowed
 
 This repository contains a basic implementation of this sort of attack. Two parties are involved in this attack:
 
-+ **The client:** It resides on the target system, extracts the sensitive data, and sends it to the server, by sending DNS queries to it that contain the data. In our implementation, the client script accepts an arbitary file, and sends out the content of the file.
++ **The [client](https://github.com/mans82/dns-exfilteration/blob/master/client.py):** It resides on the target system, extracts the sensitive data, and sends it to the server, by sending DNS queries to it that contain the data. In our implementation, the client script accepts an arbitary file, and sends out the content of the file.
 
-+ **The server:** It receives the DNS queries, extracts the data portion of it, and stores it for later use. Our implementation simply writes whatever is received into a file.
++ **The [server](https://github.com/mans82/dns-exfilteration/blob/master/server.py):** It receives the DNS queries, extracts the data portion of it, and stores it for later use. Our implementation simply writes whatever is received into a file.
 
 ## Running the project
 
